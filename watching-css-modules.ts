@@ -109,7 +109,7 @@ function getCssModulesFiles(pathDir) {
 
 export function CssModuleTypes(): Plugin {
   return {
-    name: "css-modules-types",
+    name: "css-module-type",
     apply: "serve",
     async configureServer() {
       const directory = path.join(__dirname, "./src");
