@@ -1,11 +1,11 @@
-.btn_main {
+.btn__main {
   border: none;
   padding: 5px 10px;
   border-radius: 8px;
 }
-.btn_main:disabled {
+.btn__main:disabled {
   background-color: #00000020;
 }
-.btn_primary {
+.btn__main--primary {
   background-color: #ffff0040;
 }
